@@ -11,6 +11,11 @@ $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina)
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    libudfpshandler \
+    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
