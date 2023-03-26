@@ -6,6 +6,23 @@
 -->
 <resources>
 
+
+    <!-- Default rounded corner curve (a Bezier). Must match (the curved path in) rounded.xml.
+         Note that while rounded.xml includes the entire path (including the horizontal and vertical
+         corner edges), this pulls out just the curve.
+     -->
+    <string name="config_rounded_mask" translatable="false">
+        M0,0H194S123.711,-1.438 85,24C69.437,34.227 47.5,44.815 22,87 -2.227,127.084 0,194 0,194
+    </string>
+
+    <!-- Respect drawable/rounded.xml intrinsic size for multiple radius corner path customization -->
+    <bool name="config_roundedCornerMultipleRadius">true</bool>
+
+    <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
+    <dimen name="config_rounded_mask_size">194px</dimen>
+    <dimen name="config_rounded_mask_size_top">243px</dimen>
+    <dimen name="config_rounded_mask_size_bottom">194px</dimen>
+
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">137</integer>
 
