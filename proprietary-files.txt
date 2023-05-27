@@ -701,12 +701,12 @@ vendor/etc/mdss_dsi_k2_38_08_0a_dsc_cmd_mi.xml
 vendor/etc/mdss_dsi_k2_38_08_0a_mp_dsc_cmd_mi.xml
 vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
 
-# Fingerprint
--vendor/etc/vintf/manifest/fod.xml
-vendor/lib64/com.fingerprints.extension@3.0.so
-vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.lahaina.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
+# Fingerprint - from miui_STAR_V13.0.13.0.SKACNXM
+-vendor/etc/vintf/manifest/fod.xml|0787f763410fce0aae90a3afd807e9fdb2e6ccc4
+vendor/lib64/com.fingerprints.extension@3.0.so|9e9bf48b9dff08f500734027f7bb5e382df69fef
+vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.lahaina.so|ff22a59c5dd58b83b0faaac74255d2cba7ebab11
+vendor/lib64/libgf_hal.so|f12f750d31e94a18fc8b6027340c7a0e2c6a31e5
+vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so|ab271b272f9cf53ca65ab1e457d5cd8ddebc87f7
 
 # Fingerprint dtool
 vendor/bin/hw/vendor.xiaomi.hardware.dtool@1.0-service
