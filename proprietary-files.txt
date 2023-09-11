@@ -1,4 +1,4 @@
-# These proprietary files are extracted from miui_STARGlobal_V14.0.4.0.TKAMIXM, note the pinned blobs
+# These proprietary files are extracted from miui_STARGlobal_V14.0.5.0.TKAMIXM, note the pinned blobs
 
 # ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
