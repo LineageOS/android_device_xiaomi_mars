@@ -22,6 +22,30 @@
       },
       "revId": "1cc2dfda58f4e1f96ee4707da1c437f81d8d0405",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6fdaf4cc_9e028b0e",
+        "filename": "overlay/frameworks/base/packages/SystemUI/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-11-10T12:01:47Z",
+      "side": 0,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_google_crosshatch/+/338177",
+      "parentUuid": "ae6c188a_7821cd8e",
+      "range": {
+        "startLine": 19,
+        "startChar": 16,
+        "endLine": 19,
+        "endChar": 50
+      },
+      "revId": "1cc2dfda58f4e1f96ee4707da1c437f81d8d0405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
