@@ -1,4 +1,4 @@
-# These proprietary files are extracted from miui_STARGlobal_V14.0.5.0.TKAMIXM, note the pinned blobs
+# These proprietary files are extracted from star OS1.0.2.0.UKACNXM, note the pinned blobs
 
 # ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
@@ -122,11 +122,11 @@ vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libbatterylistener.so
-vendor/lib/libhdmiedid.so
 vendor/lib/libcomprcapture.so
-vendor/lib/libhfp.so
 vendor/lib/libexthwplugin.so
+vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
+vendor/lib/libhfp.so
 vendor/lib/libqtigef.so
 vendor/lib/libresampler.so
 vendor/lib/libsndmonitor.so
@@ -220,7 +220,6 @@ vendor/lib64/libAF.so
 vendor/lib64/libBlinkStub.so
 vendor/lib64/libFlickerDet.so
 vendor/lib64/libI420colorconvert.so
-vendor/lib64/libQnnHtpStub.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSuperSensorCPU.so
 vendor/lib64/libaidenoiser.so
@@ -269,20 +268,19 @@ vendor/lib64/libmibokeh_845_video.so
 vendor/lib64/libmibokeh_855.so
 vendor/lib64/libmibokeh_mask.so
 vendor/lib64/libmibokeh_mask_dsp.so
+vendor/lib64/libmicuttlefish_fs.so
+vendor/lib64/libmicuttlefish_utils.so
 vendor/lib64/libmiface.so
-vendor/lib64/libminkdescriptor.so
-vendor/lib64/libminksocket.so
 vendor/lib64/libminziparchive.so
 vendor/lib64/libmiphone_capture_bokeh.so
 vendor/lib64/libmiphone_preview_bokeh.so
 vendor/lib64/libmiracast.so
 vendor/lib64/libmiriskmanager.so
 vendor/lib64/libmisecurity.so
+vendor/lib64/libmisight.so
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libmmhardware.so
-vendor/lib64/libmmosal.so
-vendor/lib64/libmodemapi.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libnanopb.so
 vendor/lib64/libofflinedump.so
@@ -290,7 +288,6 @@ vendor/lib64/libofflinelog.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopenvx.so
 vendor/lib64/libopestriping.so
-vendor/lib64/libops.so
 vendor/lib64/libos.so
 vendor/lib64/libportrait_blur.so
 vendor/lib64/libqll10.so
@@ -630,6 +627,7 @@ vendor/lib64/libcom.xiaomi.pluginutils.so
 vendor/lib64/libmiStereoFactoryRemapBasicLib.so
 vendor/lib64/libmiStereoFactoryRemapLib.so
 vendor/lib64/libmiStereoFactoryRemapLib_v2.so
+vendor/lib64/libmivsock_utils.so
 vendor/lib64/librelight_only.so
 vendor/lib64/libsupermoon.so
 
@@ -785,6 +783,8 @@ vendor/firmware/vpu20_4v.b16
 vendor/firmware/vpu20_4v.b17
 vendor/firmware/vpu20_4v.b18
 vendor/firmware/vpu20_4v.b19
+vendor/firmware/vpu20_4v.elf
+vendor/firmware/vpu20_4v.lst
 vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v.mdt
 vendor/firmware/vpu20_4v_unsigned.mbn
