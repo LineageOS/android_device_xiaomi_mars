@@ -626,7 +626,7 @@ vendor/lib64/libcom.xiaomi.metadatautils.so
 vendor/lib64/libcom.xiaomi.pluginutils.so
 vendor/lib64/libmiStereoFactoryRemapBasicLib.so
 vendor/lib64/libmiStereoFactoryRemapLib.so
-vendor/lib64/libmiStereoFactoryRemapLib_v2.so
+vendor/lib64/libmiStereoFactoryRemapLib_v2.so;FIX_SONAME
 vendor/lib64/libmivsock_utils.so
 vendor/lib64/librelight_only.so
 vendor/lib64/libsupermoon.so
@@ -802,7 +802,7 @@ vendor/etc/elliptic_sensor.xml
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
-vendor/lib64/libnotifyaudiohal.so
+vendor/lib64/libnotifyaudiohal.so;FIX_SONAME
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
 vendor/lib64/libssc.so
