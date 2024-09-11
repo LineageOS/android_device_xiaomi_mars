@@ -135,6 +135,16 @@ vendor/lib/libssrec.so
 vendor/lib/libvideoNS.so
 
 # Camera
+vendor/lib/libbitmlengine.so
+vendor/lib/libcamera_nn_stub.so
+vendor/lib/libofflinelog.so
+vendor/lib/libopencv.so
+vendor/lib/libsns_fastRPC_util.so
+vendor/lib/libsns_low_lat_stream_stub.so
+vendor/lib/libsnsapi.so
+vendor/lib/libsnsdiaglog.so
+vendor/lib/vendor.xiaomi.hardware.cameraperf@1.0-impl.so
+vendor/lib/vendor.xiaomi.hardware.cameraperf@1.0.so
 vendor/lib64/HDR10plus.so
 vendor/lib64/camera/com.qti.eeprom.mars_ofilm_ov13b10_p24c64f_ultra_eeprom.so
 vendor/lib64/camera/com.qti.eeprom.mars_semco_s5kgn2_p24c128e_eeprom.so
@@ -222,6 +232,8 @@ vendor/lib64/libFlickerDet.so
 vendor/lib64/libI420colorconvert.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libSuperSensorCPU.so
+vendor/lib64/libSuperSensorHVX.so
+vendor/lib64/libSuperSensorSDK.so
 vendor/lib64/libaidenoiser.so
 vendor/lib64/libalAILDC.so
 vendor/lib64/libalCFR.so
@@ -270,13 +282,9 @@ vendor/lib64/libmibokeh_mask.so
 vendor/lib64/libmibokeh_mask_dsp.so
 vendor/lib64/libmicuttlefish_fs.so
 vendor/lib64/libmicuttlefish_utils.so
-vendor/lib64/libmiface.so
 vendor/lib64/libminziparchive.so
 vendor/lib64/libmiphone_capture_bokeh.so
 vendor/lib64/libmiphone_preview_bokeh.so
-vendor/lib64/libmiracast.so
-vendor/lib64/libmiriskmanager.so
-vendor/lib64/libmisecurity.so
 vendor/lib64/libmisight.so
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmm-hdcpmgr.so
@@ -290,6 +298,7 @@ vendor/lib64/libopenvx.so
 vendor/lib64/libopestriping.so
 vendor/lib64/libos.so
 vendor/lib64/libportrait_blur.so
+vendor/lib64/libpowercore.so
 vendor/lib64/libqll10.so
 vendor/lib64/libqllengine.so
 vendor/lib64/libremosaic_wrapper.so
@@ -313,7 +322,6 @@ vendor/lib64/libvidhance.so
 vendor/lib64/libwa_opticalzoom_fusion.so
 vendor/lib64/libwa_opticalzoomfactor.so
 vendor/lib64/libwa_sat.so
-vendor/lib64/libwapi_cert.so
 vendor/lib64/libxmi_hdr_SR.so
 vendor/lib64/libxmi_hdr_bokeh.so
 vendor/lib64/libxmi_hdr_checker.so
@@ -801,6 +809,8 @@ vendor/etc/elliptic_sensor.xml
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
+vendor/lib/libsensorslog.so
+vendor/lib/libssc.so
 vendor/lib64/libnotifyaudiohal.so;FIX_SONAME
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
