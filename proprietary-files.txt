@@ -132,7 +132,7 @@ vendor/lib/libresampler.so
 vendor/lib/libsndmonitor.so
 vendor/lib/libspkrprot.so
 vendor/lib/libssrec.so
-vendor/lib/libvideoNS.so
+vendor/lib/libvideoNS.so;DISABLE_CHECKELF
 
 # Camera
 vendor/lib/libbitmlengine.so
@@ -235,10 +235,10 @@ vendor/lib64/libSuperSensorCPU.so
 vendor/lib64/libSuperSensorHVX.so
 vendor/lib64/libSuperSensorSDK.so
 vendor/lib64/libaidenoiser.so
-vendor/lib64/libalAILDC.so
+vendor/lib64/libalAILDC.so;DISABLE_CHECKELF
 vendor/lib64/libalCFR.so
-vendor/lib64/libalLDC.so
-vendor/lib64/libalhLDC.so
+vendor/lib64/libalLDC.so;DISABLE_CHECKELF
+vendor/lib64/libalhLDC.so;DISABLE_CHECKELF
 vendor/lib64/libbitmlengine.so
 vendor/lib64/libblink.so
 vendor/lib64/libc++_shared.so
@@ -268,7 +268,7 @@ vendor/lib64/libmialgo_ellc.so
 vendor/lib64/libmialgo_ie_capture.so
 vendor/lib64/libmialgo_ie_preview.so
 vendor/lib64/libmialgo_image_colourkeeping.so
-vendor/lib64/libmialgo_pureShot.so
+vendor/lib64/libmialgo_pureShot.so;DISABLE_CHECKELF
 vendor/lib64/libmialgo_rfs.so
 vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgo_utils.so
@@ -285,7 +285,7 @@ vendor/lib64/libmicuttlefish_utils.so
 vendor/lib64/libminziparchive.so
 vendor/lib64/libmiphone_capture_bokeh.so
 vendor/lib64/libmiphone_preview_bokeh.so
-vendor/lib64/libmisight.so
+vendor/lib64/libmisight.so;DISABLE_CHECKELF
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libmmhardware.so
@@ -300,7 +300,7 @@ vendor/lib64/libos.so
 vendor/lib64/libportrait_blur.so
 vendor/lib64/libpowercore.so
 vendor/lib64/libqll10.so
-vendor/lib64/libqllengine.so
+vendor/lib64/libqllengine.so;DISABLE_CHECKELF
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libsnpe_htp.so
@@ -336,11 +336,11 @@ vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_bodyslim.so
 vendor/lib64/libarcsoft_distortion_correction.so
-vendor/lib64/libarcsoft_hdrplus_hvx_stub.so
+vendor/lib64/libarcsoft_hdrplus_hvx_stub.so;DISABLE_CHECKELF
 vendor/lib64/libarcsoft_portrait_lighting.so
 vendor/lib64/libarcsoft_portrait_lighting_c.so
 vendor/lib64/libarcsoft_qnnhtp.so
-vendor/lib64/libarcsoft_super_night_raw.so
+vendor/lib64/libarcsoft_super_night_raw.so;DISABLE_CHECKELF
 
 # Camera (camerax)
 vendor/lib/libcamxexternalformatutils.so
@@ -625,7 +625,7 @@ vendor/lib64/camera/plugins/com.xiaomi.plugin.supermoon.so
 vendor/lib64/camera/plugins/com.xiaomi.plugin.supernight.so
 vendor/lib64/libXMFace.so
 vendor/lib64/libanc_dc_base.so
-vendor/lib64/libanc_dc_plugin_xiaomi_v2.so
+vendor/lib64/libanc_dc_plugin_xiaomi_v2.so;DISABLE_CHECKELF
 vendor/lib64/libanc_hdr.so
 vendor/lib64/libancbase.so
 vendor/lib64/libcom.xiaomi.debug.so
@@ -644,7 +644,7 @@ vendor/lib/libjpege.so
 vendor/lib/libmctfengine_stub.so
 vendor/lib/libmmcamera_bestats.so
 vendor/lib/libmmcamera_cac3.so
-vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_faceproc.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmmcamera_lscv35.so
 vendor/lib/libmmcamera_mfnr.so
@@ -654,7 +654,7 @@ vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
-vendor/lib64/libmmcamera_faceproc.so
+vendor/lib64/libmmcamera_faceproc.so;DISABLE_CHECKELF
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
