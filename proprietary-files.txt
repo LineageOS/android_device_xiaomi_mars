@@ -719,7 +719,7 @@ vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
 # Fingerprint
 vendor/etc/vintf/manifest/fod.xml
 vendor/lib64/com.fingerprints.extension@3.0.so
-vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.lahaina.so
+vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.lahaina.so;FIX_SONAME
 vendor/lib64/libgf_hal.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
