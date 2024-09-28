@@ -9,8 +9,7 @@ $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    libudfpshandler \
-    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
+    libudfpshandler
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
