@@ -1,5 +1,9 @@
 # Bluetooth
 bluetooth.device.default_name=Mi 11 Pro
 
+# Fingerprint
+persist.vendor.fingerprint.type=udfps_optical
+persist.vendor.fingerprint.sensor_location=720|2490|132
+
 # Sensors
 ro.vendor.sensors.xiaomi.udfps=true
