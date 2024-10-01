@@ -713,7 +713,6 @@ vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
 vendor/lib64/com.fingerprints.extension@3.0.so|9e9bf48b9dff08f500734027f7bb5e382df69fef
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.lahaina.so|ff22a59c5dd58b83b0faaac74255d2cba7ebab11
 vendor/lib64/libgf_hal.so|f12f750d31e94a18fc8b6027340c7a0e2c6a31e5
-vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so|ab271b272f9cf53ca65ab1e457d5cd8ddebc87f7
 
 # Fingerprint dtool
 vendor/bin/hw/vendor.xiaomi.hardware.dtool@1.0-service
