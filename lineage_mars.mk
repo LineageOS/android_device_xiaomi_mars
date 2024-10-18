@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -21,12 +21,9 @@ PRODUCT_MODEL := M2102K1AC
 PRODUCT_NAME := lineage_mars
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-PRODUCT_SYSTEM_NAME := mars_global
-PRODUCT_SYSTEM_DEVICE := mars
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="mars_global-user 14 UKQ1.231207.002 V816.0.6.0.UKAMIXM release-keys" \
-    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := Xiaomi/mars_global/mars:14/UKQ1.231207.002/V816.0.6.0.UKAMIXM:user/release-keys
+    BuildDesc="mars_global-user 14 UKQ1.231207.002 V816.0.6.0.UKAMIXM release-keys" \
+    BuildFingerprint := Xiaomi/mars_global/mars:14/UKQ1.231207.002/V816.0.6.0.UKAMIXM:user/release-keys \
+    SystemName := mars_global \
+    DeviceProduct := mars
