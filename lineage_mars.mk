@@ -19,7 +19,7 @@ PRODUCT_NAME := lineage_mars
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="mars_global-user 14 UKQ1.231207.002 V816.0.6.0.UKAMIXM release-keys" \
-    BuildFingerprint := Xiaomi/mars_global/mars:14/UKQ1.231207.002/V816.0.6.0.UKAMIXM:user/release-keys \
+    BuildDesc="mars_global-user 14 UKQ1.231207.002 V816.0.9.0.UKAMIXM release-keys" \
+    BuildFingerprint := Xiaomi/mars_global/mars:14/UKQ1.231207.002/V816.0.9.0.UKAMIXM:user/release-keys \
     SystemName := mars_global \
     DeviceProduct := mars
