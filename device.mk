@@ -4,12 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+TARGET_HAS_UDFPS := true
+
 # Inherit from sm8350-common
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
-
-# Fingerprint
-PRODUCT_PACKAGES += \
-    libudfpshandler
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -27,9 +25,6 @@ PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.default
 
 # Sensors
-PRODUCT_PACKAGES += \
-    sensors.xiaomi.v2
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
