@@ -22,8 +22,7 @@ PRODUCT_PACKAGES += \
     WifiResMars
 
 # PowerShare
-PRODUCT_PACKAGES += \
-    vendor.lineage.powershare-service.default
+TARGET_HAS_POWERSHARE := true
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
