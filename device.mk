@@ -5,6 +5,7 @@
 #
 
 TARGET_HAS_UDFPS := true
+TARGET_HAS_POWERSHARE := true
 
 # Inherit from sm8350-common
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
@@ -19,10 +20,6 @@ PRODUCT_PACKAGES += \
     SettingsResMars \
     SystemUIResMars \
     WifiResMars
-
-# PowerShare
-PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.default
 
 # Sensors
 PRODUCT_COPY_FILES += \
