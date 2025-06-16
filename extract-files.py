@@ -36,7 +36,10 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('xml=version', 'xml version'),
     'vendor/lib/hw/audio.primary.mars.so': blob_fixup()
         .replace_needed('/vendor/lib/liba2dpoffload.so', '/odm/lib/liba2dpoffload.so')
-        .replace_needed('/vendor/lib/libssrec.so', '/odm/lib/libssrec.so'),
+        .replace_needed('/vendor/lib/libssrec.so', '/odm/lib/libssrec.so')
+        .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
+    'vendor/lib/libaudioroute_ext.so': blob_fixup()
+        .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
     'vendor/lib/libmmcamera_faceproc.so': blob_fixup()
         .clear_symbol_version('__aeabi_memcpy')
         .clear_symbol_version('__aeabi_memset')
