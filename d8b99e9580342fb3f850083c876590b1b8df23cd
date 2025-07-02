@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "073515b8_db6f3c93",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-07-02T23:47:51Z",
+      "side": 1,
+      "message": "Can you pick https://review.lineageos.org/q/I97400638493a3b9d5a3b87fa6831c9affc7c3def instead to match other devices, even Xiaomi?",
+      "revId": "d8b99e9580342fb3f850083c876590b1b8df23cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
