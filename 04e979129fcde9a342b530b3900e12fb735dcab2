@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8da3191e_de345eb3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2025-07-05T18:49:48Z",
+      "side": 1,
+      "message": "also keep the ordering of the fixups here please and split it into multiple lines if a fixup is applied to multiple blobs",
+      "revId": "04e979129fcde9a342b530b3900e12fb735dcab2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
