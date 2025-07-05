@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f79726c8_0eea4d75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2025-07-05T18:48:21Z",
+      "side": 1,
+      "message": "please keep it sorted, vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so should be above vendor/lib64/vendor.xiaomi.hardware.cameraperf@1.0-impl.so",
+      "revId": "c8649c4cffcfb5a1486cfc528c4263f8cad3e2ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
