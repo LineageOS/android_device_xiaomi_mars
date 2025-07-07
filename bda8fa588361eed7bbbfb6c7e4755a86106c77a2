@@ -39,6 +39,23 @@
       },
       "revId": "bda8fa588361eed7bbbfb6c7e4755a86106c77a2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53e65fc9_1585b592",
+        "filename": "extract-files.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2025-07-07T14:00:12Z",
+      "side": 1,
+      "message": "don\u0027t remove the empty line at the end of the file",
+      "revId": "bda8fa588361eed7bbbfb6c7e4755a86106c77a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
