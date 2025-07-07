@@ -41,6 +41,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "68145e3e_2a415c29",
+        "filename": "extract-files.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2025-07-07T14:03:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d816b2e0_afb59ae1",
+      "range": {
+        "startLine": 67,
+        "startChar": 43,
+        "endLine": 67,
+        "endChar": 81
+      },
+      "revId": "bda8fa588361eed7bbbfb6c7e4755a86106c77a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "53e65fc9_1585b592",
@@ -54,6 +78,24 @@
       "writtenOn": "2025-07-07T14:00:12Z",
       "side": 1,
       "message": "don\u0027t remove the empty line at the end of the file",
+      "revId": "bda8fa588361eed7bbbfb6c7e4755a86106c77a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74f3d2e0_c70f1681",
+        "filename": "extract-files.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2025-07-07T14:03:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "53e65fc9_1585b592",
       "revId": "bda8fa588361eed7bbbfb6c7e4755a86106c77a2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
