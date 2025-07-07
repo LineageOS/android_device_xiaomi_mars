@@ -32,6 +32,8 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     ('vendor/etc/camera/pureShot_parameter.xml', 'vendor/etc/camera/pureView_parameter.xml'): blob_fixup()
         .regex_replace(r'=(\d+)>', r'="\1">'),
+    ('vendor/etc/camera/star_motiontuning.xml', 'vendor/etc/camera/mars_motiontuning.xml'): blob_fixup()
+        .regex_replace('xml=version', 'xml version'),
     'vendor/lib/libmmcamera_faceproc.so': blob_fixup()
         .clear_symbol_version('__aeabi_memcpy')
         .clear_symbol_version('__aeabi_memset')
@@ -39,8 +41,6 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/hw/camera.qcom.so': blob_fixup()
         .add_needed('libprocessgroup_shim.so')
         .binary_regex_replace(b'\x73\x74\x5F\x6C\x69\x63\x65\x6E\x73\x65\x2E\x6C\x69\x63', b'\x63\x61\x6D\x65\x72\x61\x5F\x63\x6E\x66\x2E\x74\x78\x74'),
-    ('vendor/etc/camera/star_motiontuning.xml', 'vendor/etc/camera/mars_motiontuning.xml'): blob_fixup()
-        .regex_replace('xml=version', 'xml version'),
     'vendor/lib64/hw/camera.xiaomi.so': blob_fixup()
         .sig_replace('5e 07 00 94', '1F 20 03 D5'),
     'vendor/lib64/hw/com.qti.chi.override.so' : blob_fixup()
