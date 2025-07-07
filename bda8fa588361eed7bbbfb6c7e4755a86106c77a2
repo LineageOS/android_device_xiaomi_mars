@@ -16,6 +16,29 @@
       "message": "need to wait until 436607 is merged",
       "revId": "bda8fa588361eed7bbbfb6c7e4755a86106c77a2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d816b2e0_afb59ae1",
+        "filename": "extract-files.py",
+        "patchSetId": 11
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2025-07-07T13:58:37Z",
+      "side": 1,
+      "message": "vendor/lib64/libmmcamera_faceproc.so: file expected to be fixed up, but pre-fixup hash and post-fixup hash are the same",
+      "range": {
+        "startLine": 67,
+        "startChar": 43,
+        "endLine": 67,
+        "endChar": 81
+      },
+      "revId": "bda8fa588361eed7bbbfb6c7e4755a86106c77a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
