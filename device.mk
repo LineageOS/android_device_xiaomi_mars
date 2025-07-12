@@ -10,12 +10,10 @@ $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 TARGET_HAS_UDFPS := true
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_PACKAGES += \
     ApertureMars \
     FrameworksResMars \
+    LineageSDKMars \
     SettingsProviderResMars \
     SettingsResMars \
     SystemUIResMars \
