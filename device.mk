@@ -10,9 +10,6 @@ TARGET_HAS_POWERSHARE := true
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_PACKAGES += \
     ApertureMars \
     FrameworksResMars \
