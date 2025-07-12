@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from star OS1.0.11.0.UKAMIXM
+## are from star OS2.0.1.0.UKACNXM
 
 abl.img;AB
 aop.img;AB
