@@ -20,4 +20,7 @@
     <dimen name="config_rounded_mask_size_top">243px</dimen>
     <dimen name="config_rounded_mask_size_bottom">194px</dimen>
 
+    <!-- Whether usage of the proximity sensor during doze is supported -->
+    <bool name="doze_proximity_sensor_supported">false</bool>
+
 </resources>
