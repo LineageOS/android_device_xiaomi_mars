@@ -16,9 +16,9 @@ PRODUCT_MODEL := M2102K1AC
 PRODUCT_NAME := lineage_mars
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="mars_global-user 14 UKQ1.231207.002 V816.0.11.0.UKAMIXM release-keys" \
-    BuildFingerprint=Xiaomi/mars_global/mars:14/UKQ1.231207.002/V816.0.11.0.UKAMIXM:user/release-keys \
+    BuildDesc="mars-user 14 UKQ1.240624.001 V2.0.7.0.UKACNXM release-keys" \
+    BuildFingerprint=Xiaomi/mars/mars:14/UKQ1.240624.001/V2.0.7.0.UKACNXM:user/release-keys \
     DeviceProduct=mars \
-    SystemName=mars_global
+    SystemName=mars
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
