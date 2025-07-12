@@ -1,4 +1,4 @@
-# These proprietary files are extracted from star OS1.0.11.0.UKAMIXM
+# These proprietary files are extracted from star OS2.0.1.0.UKACNXM
 
 # Current blobs with ELF checks disabled:
 # libvideoNS.so depends on intrinsic symbols which changed namespaces such as __aeabi_dcmpeq, __aeabi_dcmpge, which are difficult to shim
