@@ -135,16 +135,6 @@ vendor/lib/libssrec.so
 vendor/lib/libvideoNS.so;DISABLE_CHECKELF
 
 # Camera
-vendor/lib/libbitmlengine.so
-vendor/lib/libcamera_nn_stub.so
-vendor/lib/libofflinelog.so
-vendor/lib/libopencv.so
-vendor/lib/libsns_fastRPC_util.so
-vendor/lib/libsns_low_lat_stream_stub.so
-vendor/lib/libsnsapi.so
-vendor/lib/libsnsdiaglog.so
-vendor/lib/vendor.xiaomi.hardware.cameraperf@1.0-impl.so
-vendor/lib/vendor.xiaomi.hardware.cameraperf@1.0.so
 vendor/lib64/HDR10plus.so
 vendor/lib64/camera/com.qti.eeprom.mars_ofilm_ov13b10_p24c64f_ultra_eeprom.so
 vendor/lib64/camera/com.qti.eeprom.mars_semco_s5kgn2_p24c128e_eeprom.so
@@ -341,16 +331,6 @@ vendor/lib64/libarcsoft_super_night_raw.so;DISABLE_CHECKELF
 
 # Camera (camerax)
 vendor/lib/libcamxexternalformatutils.so
-vendor/lib/libcamxfacialfeatures.so
-vendor/lib/libcamxfdalgo.so
-vendor/lib/libcamxfdengine.so
-vendor/lib/libcamxifestriping.so
-vendor/lib/libcamximageformatutils.so
-vendor/lib/libcamxqsatalgo.so
-vendor/lib/libcamxstatscore.so
-vendor/lib/libcamxswispiqmodule.so
-vendor/lib/libcamxswprocessalgo.so
-vendor/lib/libcamxtintlessalgo.so
 vendor/lib64/libcamxexternalformatutils.so
 vendor/lib64/libcamxfacialfeatures.so
 vendor/lib64/libcamxfdalgo.so
@@ -637,16 +617,6 @@ vendor/lib64/librelight_only.so
 vendor/lib64/libsupermoon.so
 
 # Camera-sensors
-vendor/lib/libjpege.so
-vendor/lib/libmctfengine_stub.so
-vendor/lib/libmmcamera_bestats.so
-vendor/lib/libmmcamera_cac3.so
-vendor/lib/libmmcamera_faceproc.so;DISABLE_CHECKELF
-vendor/lib/libmmcamera_faceproc2.so
-vendor/lib/libmmcamera_lscv35.so
-vendor/lib/libmmcamera_mfnr.so
-vendor/lib/libmmcamera_mfnr_t4.so
-vendor/lib/libmmcamera_pdpc.so
 vendor/lib64/libjpege.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmmcamera_bestats.so
@@ -806,8 +776,6 @@ vendor/etc/elliptic_sensor.xml
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
-vendor/lib/libsensorslog.so
-vendor/lib/libssc.so
 vendor/lib64/libnotifyaudiohal.so;FIX_SONAME
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
@@ -939,10 +907,6 @@ vendor/etc/thermal-video.conf
 vendor/etc/thermald-devices.conf
 
 # ToF sensor
-vendor/lib/libprotobuf-cpp-full-vendor-3.9.1.so
-vendor/lib/vl53l5.hal@1.0.so
-vendor/lib/vl53l5.hal@2.0.so
-vendor/lib64/libprotobuf-cpp-full-vendor-3.9.1.so
 vendor/lib64/vl53l5.hal@1.0.so
 vendor/lib64/vl53l5.hal@2.0.so
 
