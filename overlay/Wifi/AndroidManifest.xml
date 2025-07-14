@@ -5,7 +5,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.wifi.resources.overlay.mars">
     <overlay android:targetPackage="com.android.wifi.resources"
-                   android:targetName="WifiCustomization"
-                   android:isStatic="true"
-                   android:priority="700"/>
+                   android:targetName="WifiCustomization"/>
 </manifest>
