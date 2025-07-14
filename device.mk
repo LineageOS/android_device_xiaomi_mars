@@ -19,6 +19,9 @@ PRODUCT_PACKAGES += \
     SystemUIResMars \
     WifiResMars
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/overlay/config-odm.xml:$(TARGET_COPY_OUT_ODM)/overlay/config/config.xml
+
 # PowerShare
 TARGET_HAS_POWERSHARE := true
 
