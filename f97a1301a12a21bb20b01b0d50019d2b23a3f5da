@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "150f8631_c7c247ee",
+        "filename": "overlay/LineageSDK/res/values/lineage_config.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-08-24T10:12:07Z",
+      "side": 0,
+      "message": "Rename to config.xml",
+      "revId": "f97a1301a12a21bb20b01b0d50019d2b23a3f5da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
