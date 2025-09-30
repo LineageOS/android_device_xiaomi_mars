@@ -34,6 +34,9 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'=(\d+)>', r'="\1">'),
     ('vendor/etc/camera/star_motiontuning.xml', 'vendor/etc/camera/mars_motiontuning.xml'): blob_fixup()
         .regex_replace('xml=version', 'xml version'),
+    'vendor/lib/hw/audio.primary.mars.so': blob_fixup()
+        .replace_needed('/vendor/lib/liba2dpoffload.so', '/odm/lib/liba2dpoffload.so')
+        .replace_needed('/vendor/lib/libssrec.so', '/odm/lib/libssrec.so'),
     'vendor/etc/sensors/hals.conf': blob_fixup()
         .add_line_if_missing('sensors.xiaomi.v2.so'),
     'vendor/lib/libmmcamera_faceproc.so': blob_fixup()
