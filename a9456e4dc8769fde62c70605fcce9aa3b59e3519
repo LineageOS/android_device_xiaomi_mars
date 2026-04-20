@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0fb5d17e_035cb598",
+        "filename": "overlay/LineageSDK/AndroidManifest.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-04-20T18:54:52Z",
+      "side": 1,
+      "message": "????",
+      "revId": "a9456e4dc8769fde62c70605fcce9aa3b59e3519",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
