@@ -34,6 +34,24 @@
       "parentUuid": "0fb5d17e_035cb598",
       "revId": "a9456e4dc8769fde62c70605fcce9aa3b59e3519",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2cd2f2be_46b26ea3",
+        "filename": "overlay/LineageSDK/AndroidManifest.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-04-20T19:09:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0d2320e9_c80b1931",
+      "revId": "a9456e4dc8769fde62c70605fcce9aa3b59e3519",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
