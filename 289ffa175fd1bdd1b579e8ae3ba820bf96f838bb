@@ -34,6 +34,24 @@
       "parentUuid": "24756729_a5d4985d",
       "revId": "289ffa175fd1bdd1b579e8ae3ba820bf96f838bb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fa04e055_ceecd639",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-04-21T18:52:42Z",
+      "side": 1,
+      "message": "can you send the stacktrace? does it crash under specific scenarion? i find it odd that mars needs it but not venus.",
+      "parentUuid": "9141d341_473fb688",
+      "revId": "289ffa175fd1bdd1b579e8ae3ba820bf96f838bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
