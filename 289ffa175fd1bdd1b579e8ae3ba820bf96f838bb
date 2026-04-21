@@ -16,6 +16,24 @@
       "message": "do you really need that?",
       "revId": "289ffa175fd1bdd1b579e8ae3ba820bf96f838bb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9141d341_473fb688",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35497
+      },
+      "writtenOn": "2026-04-21T18:47:48Z",
+      "side": 1,
+      "message": "Yes Because if don\u0027t pick this camera will crash",
+      "parentUuid": "24756729_a5d4985d",
+      "revId": "289ffa175fd1bdd1b579e8ae3ba820bf96f838bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
