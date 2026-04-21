@@ -271,7 +271,6 @@ vendor/lib64/libmicuttlefish_utils.so
 vendor/lib64/libminziparchive.so
 vendor/lib64/libmiphone_capture_bokeh.so
 vendor/lib64/libmiphone_preview_bokeh.so
-vendor/lib64/libmisight.so
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libmmhardware.so
