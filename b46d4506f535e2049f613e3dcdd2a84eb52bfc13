@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c592c014_9ab47a16",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-04-22T18:48:25Z",
+      "side": 1,
+      "message": "couldn\u0027t you rename the audio blob to audio.primary.qcom.so and drop the vendor.prop?",
+      "revId": "b46d4506f535e2049f613e3dcdd2a84eb52bfc13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
