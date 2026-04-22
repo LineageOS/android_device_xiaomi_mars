@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c668ebca_c1bf3155",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-04-22T17:59:15Z",
+      "side": 1,
+      "message": "there is no com.fingerprints.extension@3.0 package on hardware/xiaomi thought?",
+      "revId": "d144bf88cda383be040664e0ee6f9c493c51200d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
