@@ -16,6 +16,23 @@
       "message": "there is no com.fingerprints.extension@3.0 package on hardware/xiaomi thought?",
       "revId": "d144bf88cda383be040664e0ee6f9c493c51200d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "98c31f3a_e3ab2be5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-04-22T18:00:24Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_hardware_xiaomi/blob/lineage-23.2/interfaces/Android.bp#L21",
+      "revId": "d144bf88cda383be040664e0ee6f9c493c51200d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
