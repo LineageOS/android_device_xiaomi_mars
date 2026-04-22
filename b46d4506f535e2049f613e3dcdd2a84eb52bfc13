@@ -33,6 +33,42 @@
       "message": "or an alternative\nhttps://review.lineageos.org/c/LineageOS/android_device_oneplus_guacamole/+/437023\nhttps://review.lineageos.org/c/LineageOS/android_device_oneplus_guacamole/+/437227",
       "revId": "b46d4506f535e2049f613e3dcdd2a84eb52bfc13",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af8ccef4_0f2c8d18",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-04-22T19:07:10Z",
+      "side": 1,
+      "message": "i\u0027d like to switch between stock hal and oss one (for debugging) with a single comment",
+      "parentUuid": "c592c014_9ab47a16",
+      "revId": "b46d4506f535e2049f613e3dcdd2a84eb52bfc13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80862187_61d06d6c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-04-22T19:07:10Z",
+      "side": 1,
+      "message": "strangely enough it didn\u0027t work? the service couldn\u0027t find the HAL",
+      "parentUuid": "bffc72e7_ed908d36",
+      "revId": "b46d4506f535e2049f613e3dcdd2a84eb52bfc13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
