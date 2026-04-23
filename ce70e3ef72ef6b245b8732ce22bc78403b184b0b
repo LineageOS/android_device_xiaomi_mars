@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "83e8318d_f53487dd",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 14
+      },
+      "lineNbr": 691,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-04-23T07:20:12Z",
+      "side": 1,
+      "message": "is it really used thought?",
+      "revId": "ce70e3ef72ef6b245b8732ce22bc78403b184b0b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
