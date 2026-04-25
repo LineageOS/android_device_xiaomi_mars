@@ -16,6 +16,24 @@
       "message": "is it really used thought?",
       "revId": "ce70e3ef72ef6b245b8732ce22bc78403b184b0b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bf7ae9d_4dbad98b",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 14
+      },
+      "lineNbr": 691,
+      "author": {
+        "id": 35497
+      },
+      "writtenOn": "2026-04-25T07:23:55Z",
+      "side": 1,
+      "message": "I think it is useless. Because if i remove it fingerprint also working fine ;-)",
+      "parentUuid": "83e8318d_f53487dd",
+      "revId": "ce70e3ef72ef6b245b8732ce22bc78403b184b0b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
