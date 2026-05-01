@@ -16,6 +16,23 @@
       "message": "as long it works",
       "revId": "459bdd20d379779d3181aa975300b746dc5dc6f4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72f59114_2076ef3d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 17
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-05-01T10:31:57Z",
+      "side": 1,
+      "message": "please rebase the tree to include `com.fingerprints.extension@3.0.so` removal. the commit is still present on gh history",
+      "revId": "459bdd20d379779d3181aa975300b746dc5dc6f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
