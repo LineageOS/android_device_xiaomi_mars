@@ -16,6 +16,24 @@
       "message": "i was unable to find a `OS2.0.7.0.UKACNXM` fw anywhere, but `OS2.0.7.0.UKAMIXM` and `OS2.0.1.0.UKACNXM`. please fix the source or keep using glbal one (which is `OS2.0.7.0.UKAMIXM`)",
       "revId": "bdc15aec5a8ae63304c5b0a1bee8b15dff37a02c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "444c3ca0_49a7f93e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 22
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35497
+      },
+      "writtenOn": "2026-07-20T12:06:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ab07d31f_a925055d",
+      "revId": "bdc15aec5a8ae63304c5b0a1bee8b15dff37a02c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
