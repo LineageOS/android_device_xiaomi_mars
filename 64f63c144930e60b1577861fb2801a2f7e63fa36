@@ -34,6 +34,24 @@
       "parentUuid": "5a3d572e_53055414",
       "revId": "64f63c144930e60b1577861fb2801a2f7e63fa36",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "58cb6c5e_3ecc12b3",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 9
+      },
+      "lineNbr": 782,
+      "author": {
+        "id": 35497
+      },
+      "writtenOn": "2026-07-20T12:06:42Z",
+      "side": 0,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_xiaomi_sm8350-common/+/442093/4/proprietary-files.txt#632",
+      "parentUuid": "5a3d572e_53055414",
+      "revId": "64f63c144930e60b1577861fb2801a2f7e63fa36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
